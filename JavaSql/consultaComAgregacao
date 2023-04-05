@@ -1,0 +1,13 @@
+
+consultacom agregacao
+
+select
+        regiao as 'Regiao',
+        sum(populacao) as Total
+from Estados
+group by regiao
+order by Total desc
+
+select
+    avg(populacao) as Total
+    from estados 

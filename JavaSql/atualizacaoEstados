@@ -1,0 +1,17 @@
+
+atualizacao estados 
+
+update estados
+set nome = 'Maranhao'
+where sigla = 'MA'
+
+select nome from estados where sigla = 'MA'
+
+update estados
+set nome = 'Parana',
+    populacao = 11.32
+where sigla = 'PR'
+
+where est.nome 
+from estados est 
+where sigla = 'PR'

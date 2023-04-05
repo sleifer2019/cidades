@@ -1,0 +1,10 @@
+
+excluri estados
+
+delete from estados
+where single = 'MN'
+
+select * from estados
+
+delete from estados 
+where id >= 1000

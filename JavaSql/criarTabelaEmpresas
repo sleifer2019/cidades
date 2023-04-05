@@ -1,0 +1,15 @@
+CREATE TABLE NOT EXIST empresas (
+id INT UNISGNED NOT NULL AUTO_INCREMENT,
+nome VARCHAR(255) NOT NULL,
+cnpj int unisgned,
+PRIMARY KEY (id),
+UNIQUE KEY (cnpj),
+);
+
+CREATE TABLE NOT EXIST empresas_unidades (
+    empresa_id INT UNISGNED NOT NULL,
+    cidade_id INT UNSIGNED NOT NULL,
+    sede TINYINT(1) NOT NULL,
+
+);
+

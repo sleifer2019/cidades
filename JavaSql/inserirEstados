@@ -1,0 +1,12 @@
+
+inserir destados
+
+INSERT INTO estados (
+VALUES ('Acre', 'AC', 'Norte', 0.83);
+
+INSERT INTO estados 
+    (nome, sigla, regiao, populacao)
+VALUES
+    ('Alagoas', 'AL', 'Nordete', 3.38)
+    
+)

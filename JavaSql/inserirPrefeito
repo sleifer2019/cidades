@@ -1,0 +1,19 @@
+select * from cidades;
+
+INSERT INTO prefeitos
+    (nome, cidade_id)
+VALUES
+    ('Clovis Basilio', 2),
+    ('Rejane Silva', 3),
+    ('Zenaldo dos Santos', null);
+
+
+INSERT INTO prefeito,
+    (nome, cidade_id)
+VALUES
+    ('Joao Mendes', null);
+INSERT INTO prefeito,
+    (nome, cidade_id)
+VALUES
+    ('Rodrigo Pinheiro', 3);
+
